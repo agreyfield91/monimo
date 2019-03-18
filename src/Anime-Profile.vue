@@ -7,14 +7,14 @@
         </div>
         <headerr />
         <article>
-            <div style="padding: 20px; flex: 1;">
+            <div style="padding: 90px; flex: 1;">
                 <div class="article-top" v-if="current_anime.info">
                     <h1>{{current_anime.info.title}}</h1>
                     <p style="margin: 8px 0px;">{{current_anime.info.synopsis.slice(0,400)}}...</p>
                     <div style="margin: 15px 0px;">
                         <div class="info-sec">
                             <h4>Genres</h4>
-                            <ul class="genres">
+                            <ul class="movies">
                                 <li class="genre" v-for="genre in current_anime.genres">{{genre.name}}</li>
                             </ul>
                         </div>
